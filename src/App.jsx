@@ -4,6 +4,7 @@ import Leftpanel from "./Leftpanel";
 import Rightpanel from "./Rightpanel";
 import Filter from "./Filter";
 import FAQ from "./FAQ";
+import Forms from "./Forms";
 
 const nodes = [
     {
@@ -80,6 +81,7 @@ function App() {
                 </div>
                 <Filter />
                 <FAQ />
+                <Forms />
             </main>
 
             <aside className="panel right-panel">
