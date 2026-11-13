@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Leftpanel from "./Leftpanel";
 import Rightpanel from "./Rightpanel";
+import Filter from "./Filter";
+import FAQ from "./FAQ";
 
 const nodes = [
     {
@@ -76,6 +78,8 @@ function App() {
                         </button>
                     ))}
                 </div>
+                <Filter />
+                <FAQ />
             </main>
 
             <aside className="panel right-panel">
