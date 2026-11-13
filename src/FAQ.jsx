@@ -47,13 +47,16 @@ const FAQ = () => {
                         return (
                             <div key={question.id}>
                                 <button
+                                    className="faq-question"
                                     onClick={() => handleToggle(question.id)}>
                                     {question.question}
-                                    <span>{isOpen ? "▲" : "▼"}</span>
+                                    <span className="faq-arrow">
+                                        {isOpen ? "▲" : "▼"}
+                                    </span>
                                 </button>
                                 {isOpen && (
                                     <div>
-                                        <p>{question.answer}</p>
+                                        <p><b>Ans:</b> {question.answer}</p>
                                     </div>
                                 )}
                             </div>

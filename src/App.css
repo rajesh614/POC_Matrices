@@ -105,6 +105,18 @@
   font-weight: 700;
 }
 
+.faq-question {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: left;
+}
+
+.faq-arrow {
+  margin-left: auto;
+  padding-left: 12px;
+}
+
 .node-meta {
   color: #64748b;
 }
